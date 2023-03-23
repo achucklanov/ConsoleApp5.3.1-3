@@ -8,10 +8,10 @@
             Console.WriteLine(somName);
 
 
-            string name;
+            string name = null;
             GetName(ref name);
 
-            Console.WriteLine(somName);
+            Console.WriteLine(name);
 
             Console.ReadKey();
         }
